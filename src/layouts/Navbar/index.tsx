@@ -41,7 +41,10 @@ const Navbar: React.FC<Props> = () => {
     <div className={clsx("navbar-container", grotesk.className)}>
       <div className={clsx(isScroll ? "navbar-scroll" : "navbar")}>
         <div className="w-1/4 sm:w-[70%] flex items-center">
-          <Link href="/" className={`logo-container text-white`}>
+          <Link
+            href="https://ordinalsfi.io/"
+            className={`logo-container text-white`}
+          >
             <Image
               src={AppLogo}
               alt="mystic-logo"
