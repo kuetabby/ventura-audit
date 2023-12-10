@@ -5,10 +5,9 @@ import BaseLayout from "@/layouts";
 
 import "./globals.css";
 
-const app_title = "Ordinals Fi - Audit dApp";
+const app_title = "Ordinals Fi - Auditor dApp";
 const app_name = "Ordinals Fi";
-const description =
-  "Discover Loca.Fi, a pioneering blockchain ecosystem empowering global connectivity. Experience secure, transparent solutions fostering innovation, community engagement, and a decentralized future.";
+const description = "Ordinals Fi Auditor dApp";
 
 export const metadata: Metadata = {
   title: app_title,
