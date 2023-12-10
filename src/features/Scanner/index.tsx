@@ -142,7 +142,7 @@ const Scanner: React.FC<Props> = () => {
               Let's get started!
             </div>
             <div className="w-full h-full flex flex-wrap justify-between">
-              <Card className="w-full h-full md:w-4/5 lg:w-[65%] xl:w-1/2 bg-dark-secondary rounded-lg mt-4">
+              <Card className="w-full h-full md:w-4/5 lg:w-3/5 xl:w-2/5 bg-dark-secondary rounded-lg mt-4">
                 <CardBody className="pb-0">
                   {/* <div className="text-lg sm:text-xl text-white">Select One:</div>
                 <div className="w-44 flex flex-wrap justify-between mt-2 mb-6">
