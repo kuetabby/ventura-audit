@@ -28,20 +28,15 @@ module.exports = {
         "dark-tertiary": "#205d7d",
       },
       backgroundImage: () => ({
+        "mint-green": "linear-gradient(to right, #00A86B, #98FF98)",
+        "olive-green": "linear-gradient(to right, #228B22, #556B2F)",
+        "lush-green": "linear-gradient(to right, #50C878, #00A86B)",
+        "emerald-green": "linear-gradient(to right, #98FF98, #50C878)",
+        "forest-green": "linear-gradient(to right, #556B2F, #228B22)",
+
         "dark-primary": "linear-gradient(to right, #0A0C11, rgb(19, 24, 35))",
-        "light-primary":
-          "linear-gradient(to right, #0A0C11 0%, rgb(19, 24, 35) 100%)",
         "dark-fade":
           "linear-gradient(to right, #0A0C11, #131823, rgb(19, 24, 35))",
-
-        lavender: "linear-gradient(to right, #d49cc7, #0f041a)",
-        "vibrant-purple": "linear-gradient(to right, #691e65, #57094f)",
-        "rich-purple": "linear-gradient(to right, #2f0641, #2d0533)",
-        "light-purple": "linear-gradient(to right, #84848b, #7f5295)",
-        "tone-purple": "linear-gradient(to right, #44444c, #24242c)",
-        primary:
-          "linear-gradient(55deg, rgba(105,30,101,1) 0%, rgba(87,9,79,1) 100%)",
-        secondary: "#BF00FF",
       }),
       width: {
         "10%": "10%",

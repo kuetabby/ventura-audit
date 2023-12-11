@@ -133,7 +133,7 @@ const Scanner: React.FC<Props> = () => {
         <div className="w-full md:w-11/12 lg:w-[85%] mx-auto relative">
           <div className="w-full">
             <div className="text-xl sm:text-3xl !font-extrabold text-white">
-              OrdinalsFi Auditor
+              Ventura Auditor
             </div>
             <div className="text-lg sm:text-xl text-white mt-4 mb-1">
               You're one step closer to a safer portfolio.
@@ -251,7 +251,7 @@ const Scanner: React.FC<Props> = () => {
                       className={`w-5/12 sm:w-[45%] h-8 text-white ${
                         isDisabled && "pointer-events-none"
                       }`}
-                      colorScheme="blue"
+                      colorScheme="green"
                       onClick={onScan}
                       isDisabled={isDisabled}
                       isLoading={isScanTokenLoading}

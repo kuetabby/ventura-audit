@@ -22,7 +22,7 @@ const PageTabs: React.FC<Props> = ({ containterClass }) => {
       {
         href: "/",
         pathname: `/`,
-        name: "OrdinalsFi Smart Contract Auditor",
+        name: "Ventura Smart Contract Auditor",
       },
     ];
   }, []);

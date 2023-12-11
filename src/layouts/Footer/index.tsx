@@ -35,10 +35,10 @@ const AppFooter: React.FC<Props> = () => {
         <div className="w-3/4 sm:w-full lg:w-11/12 2xl:w-4/5 flex flex-wrap items-center justify-between lg:justify-center m-auto">
           <div className="w-full lg:w-4/5 flex">
             <Link
-              href="https://x.com/Ordinalsfi"
+              href="https://x.com/VenturaERC20"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-1/3 flex justify-center items-center mx-auto hover:text-blue-500"
+              className="w-1/3 flex justify-center items-center mx-auto hover:text-green-500"
             >
               <Image
                 src={TwitterLogo}
@@ -50,10 +50,10 @@ const AppFooter: React.FC<Props> = () => {
               </div>
             </Link>
             <Link
-              href="http://medium.com/@ordinalsfi"
+              href="https://medium.com/@venturaerc20"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-1/3 flex justify-center items-center mx-auto hover:text-blue-500"
+              className="w-1/3 flex justify-center items-center mx-auto hover:text-green-500"
             >
               <Image
                 src={MediumLogo}
@@ -65,10 +65,10 @@ const AppFooter: React.FC<Props> = () => {
               </div>
             </Link>
             <Link
-              href="https://t.me/OrdinalsFi"
+              href="https://t.me/VenturaERC20"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-1/3 flex justify-center items-center mx-auto hover:text-blue-500"
+              className="w-1/3 flex justify-center items-center mx-auto hover:text-green-500"
             >
               <Image
                 src={TelegramLogo}
@@ -86,12 +86,12 @@ const AppFooter: React.FC<Props> = () => {
           <div className="flex items-center my-2">
             <CopyrightOutlined style={{ fontSize: "0.75em" }} />
             <div className="ml-2 text-xs font-semibold">
-              2023 <span className="lg:text-sm">OrdinalsFi</span>. All Right
+              2023 <span className="lg:text-sm">Ventura Chain</span>. All Right
               Reserved.{" "}
               {/* <Link
                 href="mailto:locafierc20@locafi.network"
                 rel="noopener noreferrer"
-                className="font-extrabold underline underline-offset-4 hover:text-blue-500"
+                className="font-extrabold underline underline-offset-4 hover:text-green-500"
               >
                 Contact Us
               </Link> */}

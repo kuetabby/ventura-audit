@@ -86,9 +86,9 @@ export const Information: React.FC<Props> = ({
         </div>
         <div className="w-full sm:w-60 flex flex-wrap justify-around sm:justify-between mx-auto sm:mx-0 mt-4 sm:mt-0">
           <Button
-            className={`w-5/12 sm:w-[45%] h-8 text-white disabled:bg-light-purple`}
+            className={`w-5/12 sm:w-[45%] h-8 text-white`}
             onClick={scanRefetch}
-            colorScheme="blue"
+            colorScheme="green"
           >
             Refresh
           </Button>
@@ -195,7 +195,7 @@ export const Information: React.FC<Props> = ({
                 <Divider className="my-4" />
                 <div className="w-full">
                   <div>Tax Rate</div>
-                  <div className="w-[12em] flex justify-between mt-3 font-semibold">
+                  <div className="w-[13em] flex justify-between mt-3 font-semibold">
                     <div className="border border-white rounded-lg p-2">
                       {!!buy_tax ? (Number(buy_tax) * 100).toFixed(1) : "-"} %
                       Buy

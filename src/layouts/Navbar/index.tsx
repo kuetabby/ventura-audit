@@ -42,7 +42,7 @@ const Navbar: React.FC<Props> = () => {
       <div className={clsx(isScroll ? "navbar-scroll" : "navbar")}>
         <div className="w-1/4 sm:w-[70%] flex items-center">
           <Link
-            href="https://ordinalsfi.io/"
+            href="https://ventura-chain.tech"
             className={`logo-container text-white`}
           >
             <Image
@@ -56,7 +56,7 @@ const Navbar: React.FC<Props> = () => {
 
         {/* small devices */}
         <div className="sm:hidden w-full text-xl xs:text-3xl font-extrabold navbar-title">
-          OrdinalsFi Auditor
+          Ventura Auditor
         </div>
       </div>
     </div>

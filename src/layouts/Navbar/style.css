@@ -34,7 +34,7 @@
 }
 
 .navbar-title {
-  @apply bg-light-purple font-bold;
+  @apply bg-olive-green font-bold;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
