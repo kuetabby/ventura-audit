@@ -86,7 +86,7 @@ const AppFooter: React.FC<Props> = () => {
           <div className="flex items-center my-2">
             <CopyrightOutlined style={{ fontSize: "0.75em" }} />
             <div className="ml-2 text-xs font-semibold">
-              2023 <span className="lg:text-sm">Ordinals Fi</span>. All Right
+              2023 <span className="lg:text-sm">OrdinalsFi</span>. All Right
               Reserved.{" "}
               {/* <Link
                 href="mailto:locafierc20@locafi.network"

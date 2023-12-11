@@ -133,7 +133,7 @@ const Scanner: React.FC<Props> = () => {
         <div className="w-full md:w-11/12 lg:w-[85%] mx-auto relative">
           <div className="w-full">
             <div className="text-xl sm:text-3xl !font-extrabold text-white">
-              Ordinals Fi Auditor
+              OrdinalsFi Auditor
             </div>
             <div className="text-lg sm:text-xl text-white mt-4 mb-1">
               You're one step closer to a safer portfolio.

@@ -56,7 +56,7 @@ const Navbar: React.FC<Props> = () => {
 
         {/* small devices */}
         <div className="sm:hidden w-full text-xl xs:text-3xl font-extrabold navbar-title">
-          Ordinals Fi Auditor
+          OrdinalsFi Auditor
         </div>
       </div>
     </div>
