@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { ArrowUpOutlined } from "@ant-design/icons";
 
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 import Provider from "@/library/Provider";
 
@@ -67,7 +67,7 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
           </Button>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Provider>
   );
 };
